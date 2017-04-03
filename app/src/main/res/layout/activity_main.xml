@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aadikapur.android.appbowl.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Devices"
+        android:textSize="50sp"
+        android:gravity="center"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Connected Devices"
+        android:paddingTop="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pacer \n\n LifeAlert \n\n Insulin Pump \n\n FitBit"
+        android:paddingTop="20sp"
+        android:paddingBottom="100sp"/>
+
+    <Button
+        android:paddingTop="20sp"
+        android:paddingBottom="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect New Device"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Health Status"
+        android:paddingTop="20sp"
+        android:paddingBottom="20sp"
+        android:layout_weight="1"/>
+
+</LinearLayout>
